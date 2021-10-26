@@ -1,5 +1,54 @@
 [
   {
+    "id": "pluwd19e7kv6lcpxp",
+    "name": "Generic Cotton Shirt",
+    "description": "Very nice",
+    "brand": "primary",
+    "price": "870",
+    "category": "headphones",
+    "imageUrl": "https://www.mytrendyphone.eu/images/Forever-Music-Soul-BHS-300-Bluetooth-Headphones-with-Microphone-Black-5900495738110-17072019-01-p.jpg",
+    "createdAt": "2021-10-25T11:43:16.812Z"
+  },
+  {
+    "id": "pluwd19e7kv6lcssf",
+    "name": "Tasty Rubber Shirt",
+    "description": "Very nice",
+    "brand": "mobile",
+    "price": "173",
+    "category": "headphones",
+    "imageUrl": "https://www.mytrendyphone.eu/images/Forever-Music-Soul-BHS-300-Bluetooth-Headphones-with-Microphone-Black-5900495738110-17072019-01-p.jpg",
+    "createdAt": "2021-10-25T11:43:20.511Z"
+  },
+  {
+    "id": "pluwd1a67kv6mu9zb",
+    "name": "Tesla",
+    "description": "Roadster",
+    "brand": "Tesla",
+    "price": "30000",
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBHk9Csu4AE5aQQgAhj89NypCVvxfULpvtsXlR3xkqdKDVFXX9fLynKF90VOFGG0mNKAI&usqp=CAU",
+    "createdAt": "2021-10-25T12:24:55.558Z"
+  },
+  {
+    "id": "pluwd1apgkv6nmkkp",
+    "name": "iPhone 12 Pro",
+    "description": "256 GB",
+    "brand": "Apple",
+    "price": "1299",
+    "category": "Mobile Phones",
+    "imageUrl": "https://www.backmarket.de/cdn-cgi/image/format=auto,quality=75,width=2048/https://d1eh9yux7w8iql.cloudfront.net/product_images/413184_80d5999c-315b-4e0d-a01f-b74f76a61e57.jpg",
+    "createdAt": "2021-10-25T12:46:55.656Z"
+  },
+  {
+    "id": "pluwd1apgkv6py2ng",
+    "name": "Tesla",
+    "description": "Roadster",
+    "brand": "Tesla",
+    "price": "30000",
+    "category": "Cars",
+    "imageUrl": "https://www.backmarket.de/cdn-cgi/image/format=auto,quality=75,width=2048/https://d1eh9yux7w8iql.cloudfront.net/product_images/413184_80d5999c-315b-4e0d-a01f-b74f76a61e57.jpg",
+    "createdAt": "2021-10-25T13:51:51.532Z"
+  },
+  {
     "id": "pluwd1bi2kv6qgimg",
     "name": "Rustic Steel Bike",
     "description": "Very nice",
@@ -7,26 +56,7 @@
     "price": "271",
     "category": "headphones",
     "imageUrl": "https://www.mytrendyphone.eu/images/Forever-Music-Soul-BHS-300-Bluetooth-Headphones-with-Microphone-Black-5900495738110-17072019-01-p.jpg",
-    "reviews": [
-      {
-        "id": "pluwd1cntkv6rg28o",
-        "comment": "Intuitive full-range solution",
-        "rate": "784",
-        "createdAt": "2021-10-25T14:33:50.423Z"
-      },
-      {
-        "id": "pluwd1cntkv6rg7zb",
-        "comment": "De-engineered asymmetric internet solution",
-        "rate": "334",
-        "createdAt": "2021-10-25T14:33:57.863Z"
-      },
-      {
-        "id": "pluwd1cntkv6rgdpn",
-        "comment": "Integrated web-enabled process improvement",
-        "rate": "728",
-        "createdAt": "2021-10-25T14:34:05.291Z"
-      }
-    ],
+    "reviews": [],
     "createdAt": "2021-10-25T14:06:12.039Z"
   },
   {

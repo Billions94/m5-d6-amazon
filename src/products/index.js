@@ -110,24 +110,23 @@ productsRoute.get('/:id', async (req, res, next) => {
     }
 })
 
-const fileAsBuffer = fs.readFileSync(productsFilePath)
-const fileAsString = fileAsBuffer.toString()
-const fileAsJSONArray = JSON.parse(fileAsString)
-console.log(`here are the reviews`,fileAsJSONArray.reviews)
-
 productsRoute.get('/:id/reviews', async (req, res, next) => {
     try {
+        const fileAsBuffer = fs.readFileSync(productsFilePath)
+        const fileAsString = fileAsBuffer.toString()
+        const fileAsJSONArray = JSON.parse(fileAsString)
 
         const product = fileAsJSONArray.find(
             (product) => product.id === req.params.id
         )
+        console.log(fileAsJSONArray)
 
         if (!product) {
             res
                 .status(404)
                 .send({ message: `Product with ${req.params.id} is not found :(` })
         }
-        res.send(fileAsJSONArray.reviews)
+        res.send(product)
     } catch (error) {
         res.status(500).send({ message: error.message })
     }
