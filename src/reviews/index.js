@@ -1,6 +1,6 @@
 import express from "express";
 import { reviewsValidation } from "./validation.js";
-import { getReviews, writeReviews } from "./db.js";
+import { getReviews } from "../db/db.js"
 import { validationResult } from "express-validator";
 import createHttpError from "http-errors";
 import uniqid from "uniqid";

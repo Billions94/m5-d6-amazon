@@ -3,11 +3,9 @@ import cors from "cors";
 import listEndpoints from "express-list-endpoints";
 import path, { dirname } from "path";
 import { fileURLToPath } from "url";
-
-
 import productsRouter from './products/index.js'
 import reviewsRoute from "./reviews/index.js";
-import { badRequest, unAuthorized, notFound, genericError } from './reviews/errorHandlers.js'
+import { badRequest, unAuthorized, notFound, genericError } from './db/errorHandlers.js'
 
 
 const fname = fileURLToPath(import.meta.url)
@@ -31,7 +29,11 @@ server.use('/products', productsRouter)
 
 console.log(listEndpoints(server));
 
-server.listen(port, () => console.log("Port running: ", port));
+const { PORT } = process.env
+
+server.listen(PORT, async() => console.log(`😁 Server is running on port ${PORT}`));
+
+
 
 server.on("error", (error) =>
   console.log(`Server is not running due to : ${error}`)

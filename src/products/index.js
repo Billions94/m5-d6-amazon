@@ -6,7 +6,7 @@ import { fileURLToPath } from 'url'
 import { productsValidation } from './validation.js'
 import { validationResult } from "express-validator";
 import createHttpError from "http-errors";
-import { getProducts, writeProducts } from '../reviews/db.js'
+
 
 const fname = fileURLToPath(import.meta.url)
 const dname = dirname(fname)
